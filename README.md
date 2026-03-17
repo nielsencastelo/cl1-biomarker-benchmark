@@ -1,6 +1,17 @@
-# CL Biomarkers Benchmark
+# CL1 Biomarker Benchmark
 
-An experimental benchmark to compare **biological substrate via the Cortical Labs CL API / CL SDK** with **classical ML models** using biomarkers derived from neural activity.
+**A reproducible biomarker and machine learning benchmark for the Cortical Labs CL1 ecosystem**
+
+This project provides an experimental benchmark to compare **neural biomarkers extracted from the Cortical Labs CL API / CL SDK workflow** with **classical machine learning models** under a shared evaluation protocol.
+
+It is designed as a research and engineering framework for exploring questions such as:
+- which neural biomarkers best discriminate stimulus conditions,
+- whether simulator and replay behavior align with observed recordings,
+- how biomarker-based representations compare against classical ML baselines,
+- and which biomarkers may anticipate adaptive performance improvements over time.
+
+This repository is **not an official Cortical Labs project**.  
+It is an independent research benchmark built to be **compatible with the Cortical Labs CL1 ecosystem**, especially the public developer tooling around **`cl-sdk`** and **`cl-api-doc`**.
 
 ## Objective
 
