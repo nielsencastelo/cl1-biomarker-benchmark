@@ -74,7 +74,7 @@ src/cl_biomarkers_benchmark/
     report.py
   utils/
     config.py
-	
+```
 ## Relation to the Cortical Labs ecosystem
 
 This benchmark is designed to work alongside the public Cortical Labs developer ecosystem, including:
