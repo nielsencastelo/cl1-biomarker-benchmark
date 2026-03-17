@@ -1,0 +1,38 @@
+[
+  {
+    "model": "logistic_regression",
+    "accuracy": 0.9422222222222222,
+    "f1_macro": 0.9421479505340203,
+    "log_loss": 0.15890983247557885,
+    "brier_score": 0.029417879810475316,
+    "fit_time_sec": 0.25655696000006856,
+    "predict_time_sec_per_sample": 4.868884444388439e-06
+  },
+  {
+    "model": "random_forest",
+    "accuracy": 0.9311111111111111,
+    "f1_macro": 0.9311007664035037,
+    "log_loss": 0.18987446716259118,
+    "brier_score": 0.03472106001420753,
+    "fit_time_sec": 5.6904110079999555,
+    "predict_time_sec_per_sample": 0.001856885797777813
+  },
+  {
+    "model": "gradient_boosting",
+    "accuracy": 0.9255555555555556,
+    "f1_macro": 0.9256302103075712,
+    "log_loss": 0.22569615108920713,
+    "brier_score": 0.03881851938538965,
+    "fit_time_sec": 5.415342382999995,
+    "predict_time_sec_per_sample": 1.796859777774292e-05
+  },
+  {
+    "model": "mlp",
+    "accuracy": 0.9311111111111111,
+    "f1_macro": 0.9307783780384521,
+    "log_loss": 0.22256935656787624,
+    "brier_score": 0.038942049757574905,
+    "fit_time_sec": 0.43772913099996913,
+    "predict_time_sec_per_sample": 5.97829555557736e-06
+  }
+]

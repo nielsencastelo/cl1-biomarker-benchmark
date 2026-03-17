@@ -1,0 +1,36 @@
+seed: 42
+output_dir: artifacts
+
+experiment:
+  name: temporal_pattern_biomarker_benchmark
+  task_type: multiclass_classification
+  labels: [pattern_a, pattern_b, pattern_c]
+  window_sec: 2.0
+  stride_sec: 1.0
+
+synthetic:
+  n_samples_per_class: 300
+  n_channels: 32
+  duration_sec: 120
+  noise_std: 0.08
+
+biomarkers:
+  network_bursts:
+    bin_size_sec: 0.1
+    onset_freq_hz: 8.0
+    offset_freq_hz: 3.0
+    min_active_channels: 4
+  functional_connectivity:
+    bin_size_sec: 0.2
+    correlation_threshold: 0.35
+  firing_stats:
+    bin_size_sec: 0.5
+
+ml:
+  n_splits: 5
+  scoring: f1_macro
+  models:
+    logistic_regression: true
+    random_forest: true
+    gradient_boosting: true
+    mlp: true

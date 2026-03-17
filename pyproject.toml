@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cl-biomarkers-benchmark"
+version = "0.1.0"
+description = "Benchmark experimental para Cortical Labs CL SDK com biomarcadores e modelos de ML"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "OpenAI for Nielsen Castelo"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "PyYAML>=6.0.2",
+  "matplotlib>=3.8",
+  "networkx>=3.3",
+  "h5py>=3.11",
+  "python-dotenv>=1.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
