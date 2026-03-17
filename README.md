@@ -74,3 +74,21 @@ src/cl_biomarkers_benchmark/
     report.py
   utils/
     config.py
+	
+## Relation to the Cortical Labs ecosystem
+
+This benchmark is designed to work alongside the public Cortical Labs developer ecosystem, including:
+
+- `cl-sdk` — the Cortical Labs CL API simulator for local development
+- `cl-api-doc` — the public developer notebooks and API examples for the CL1 platform
+
+Official repositories:
+- Cortical Labs GitHub organization: https://github.com/Cortical-Labs
+- CL SDK: https://github.com/Cortical-Labs/cl-sdk
+- CL API docs: https://github.com/Cortical-Labs/cl-api-doc
+
+The goal of this project is to extend that ecosystem with a reproducible evaluation layer focused on:
+- biomarker extraction,
+- model comparison,
+- reproducibility analysis,
+- and benchmark reporting.
